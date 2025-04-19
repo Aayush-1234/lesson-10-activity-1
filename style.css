@@ -1,0 +1,35 @@
+body{
+    background-image:url("backround\ gif\ image.gif") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white
+}
+h1{
+    color: aquamarine;
+    background-color: black;
+    text-decoration: wavy;
+}
+a:hover{
+    color: darkgreen;
+    background-color: crimson;
+}
+img{
+    width: 350px;
+    height:350px;
+    border: ridge 5px burlywood;
+}
+p::first-letter{
+    font-size: 800%;
+    color: bisque;
+}
+ul li::hover{
+color: aqua;
+background-color: deeppink;
+}}
+ul li::before{
+    content:"👽";
+}
+ul li::after{
+    content: 👽;
+}
